@@ -1,0 +1,38 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "pack.name",
+    "description": "pack.description",
+    "uuid": "57796390-22ea-43b1-af8e-eccc463c7b8e",
+    "min_engine_version": [ 1, 21, 50 ],
+    "version": [ 1, 0, 0 ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "6c3edf7a-c196-46cd-bd81-d601bb8fcb55",
+      "version": [ 1, 0, 0 ]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "8db6fa66-f2ff-4038-83c4-6a19952982b4",
+      "entry": "scripts/main.js",
+      "version": [ 1, 0, 0 ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.16.0"
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "JustAsh01"
+    ],
+    "license": "MIT",
+    "url": "https://github.com/Justash01/dynamic-lights",
+    "product_type": "addon"
+  }
+}
